@@ -20,27 +20,10 @@ int main()
     // print if you passed or fail
     if (grade >= 60)
     {
-        fourPointGrade = 1.0;
-        printf("Grade: %.1f\n", fourPointGrade);
 
-        if (grade >= 66)
+        if (grade >= 94)
         {
-            fourPointGrade = 1.5;
-            printf("Grade: %.1f\n", fourPointGrade);
-        }
-        else if (grade >= 72)
-        {
-            fourPointGrade = 2.0;
-            printf("Grade: %.1f\n", fourPointGrade);
-        }
-        else if (grade >= 78)
-        {
-            fourPointGrade = 2.5;
-            printf("Grade: %.1f\n", fourPointGrade);
-        }
-        else if (grade >= 83)
-        {
-            fourPointGrade = 3.0;
+            fourPointGrade = 4.0;
             printf("Grade: %.1f\n", fourPointGrade);
         }
         else if (grade >= 89)
@@ -48,12 +31,26 @@ int main()
             fourPointGrade = 3.5;
             printf("Grade: %.1f\n", fourPointGrade);
         }
-        else if (grade >= 94)
+        else if (grade >= 83)
         {
-            fourPointGrade = 4.0;
+            fourPointGrade = 3.0;
             printf("Grade: %.1f\n", fourPointGrade);
         }
-        
+        else if (grade >= 78)
+        {
+            fourPointGrade = 2.5;
+            printf("Grade: %.1f\n", fourPointGrade);
+        }
+        else if (grade >= 72)
+        {
+            fourPointGrade = 2.0;
+            printf("Grade: %.1f\n", fourPointGrade);
+        }
+        else if (grade >= 66)
+        {
+            fourPointGrade = 1.5;
+            printf("Grade: %.1f\n", fourPointGrade);
+        }
     	printf("You passed!\n");
     }
     else
